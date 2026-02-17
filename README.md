@@ -1,10 +1,10 @@
 # torch-phase-shift
 
-[![License](https://img.shields.io/pypi/l/torch-phase-shift.svg?color=green)](https://github.com/alisterburt/torch-phase-shift/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/torch-phase-shift.svg?color=green)](https://pypi.org/project/torch-phase-shift)
-[![Python Version](https://img.shields.io/pypi/pyversions/torch-phase-shift.svg?color=green)](https://python.org)
-[![CI](https://github.com/alisterburt/torch-phase-shift/actions/workflows/ci.yml/badge.svg)](https://github.com/alisterburt/torch-phase-shift/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/alisterburt/torch-phase-shift/branch/main/graph/badge.svg)](https://codecov.io/gh/alisterburt/torch-phase-shift)
+[![License](https://img.shields.io/pypi/l/torch-fourier-shift.svg?color=green)](https://github.com/teamtomo/torch-fourier-shift/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/torch-fourier-shift.svg?color=green)](https://pypi.org/project/torch-fourier-shift)
+[![Python Version](https://img.shields.io/pypi/pyversions/torch-fourier-shift.svg?color=green)](https://python.org)
+[![CI](https://github.com/teamtomo/torch-fourier-shift/actions/workflows/ci.yml/badge.svg)](https://github.com/teamtomo/torch-fourier-shift/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/teamtomo/torch-fourier-shift/branch/main/graph/badge.svg)](https://codecov.io/gh/teamtomo/torch-fourier-shift)
 
 *torch-fourier-shift* is a package for shifting 1D, 2D and 3D images with subpixel precision 
 by applying phase shifts to Fourier transforms in PyTorch.
@@ -31,7 +31,7 @@ my_image = torch.tensor(
 shifted_image = fourier_shift_image_2d(image=my_image, shifts=torch.tensor([1, 2]))
 ```
 
-API's are equivalent for 1D and 3D images.
+APIs are equivalent for 1D and 3D images.
 
 ## Installation
 
