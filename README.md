@@ -1,4 +1,4 @@
-# torch-phase-shift
+# torch-fourier-shift
 
 [![License](https://img.shields.io/pypi/l/torch-fourier-shift.svg?color=green)](https://github.com/teamtomo/torch-fourier-shift/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/torch-fourier-shift.svg?color=green)](https://pypi.org/project/torch-fourier-shift)
